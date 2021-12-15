@@ -1,6 +1,30 @@
-body {
-  background-color: blue;
+:root {
+  --primary-text-color: ;
 }
-.colorred {
-  color: red;
+
+body {
+  background-color: #fff;
+  color: #212121;
+}
+ul {
+  list-style: none;
+}
+/* site nav */
+.site-nav {
+  color: #212121;
+}
+.site-nav:hover {
+  color: #2196f3;
+}
+.site-nav:focus {
+  color: #2196f3;
+}
+.hero {
+  background-color: #2f303a;
+}
+.title-hero {
+  color: #ffffff;
+}
+.benefits {
+  color: #757575;
 }
