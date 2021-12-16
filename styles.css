@@ -10,17 +10,17 @@ body {
   background-color: var(--bgc-text-hero);
   color: var(--primary-text-color);
 }
-.list {
+ul {
   list-style: none;
 }
 /* site nav */
-.site-nav .link {
+.site-nav {
   color: var(--primary-text-color);
 }
-.site-nav .link:hover {
+.site-nav:hover {
   color: var(--accent-color);
 }
-.site-nav .link:focus {
+.site-nav:focus {
   color: var(--accent-color);
 }
 .hero {
