@@ -7,11 +7,19 @@
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
   background-color: var(--bgc-text-hero);
   color: var(--primary-text-color);
 }
 .list {
   list-style: none;
+}
+.labe {
+  font-family: 'Raleway';
+  color: var(--accent-color);
+}
+.studio {
+  color: #000000;
 }
 /* site nav */
 .site-nav .link {
