@@ -4,6 +4,7 @@
   --bgc-text-hero: #fff;
   --hero-bgc: #2f303a;
   --benefits: #757575;
+  --zaholovokh2: #212121;
 }
 
 body {
@@ -11,6 +12,14 @@ body {
   background-color: var(--bgc-text-hero);
   color: var(--primary-text-color);
 }
+
+.zaholovok {
+  font-size: 36px;
+  line-height: 42px;
+  color: var(--zaholovokh2);
+}
+
+/*------------------------------------------------------ header------------------------ */
 .list {
   list-style: none;
 }
@@ -18,10 +27,13 @@ body {
   font-family: 'Raleway';
   color: var(--accent-color);
 }
+.active {
+  color: var(--accent-color);
+}
 .studio {
   color: #000000;
 }
-/* site nav */
+
 .site-nav .link {
   color: var(--primary-text-color);
 }
@@ -31,18 +43,78 @@ body {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.mailtel .mt {
+  color: var(--benefits);
+}
+.mailtel .mt:hover {
+  color: var(--accent-color);
+}
+.mailtel .mt:focus {
+  color: var(--accent-color);
+}
+
+.mt {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+/* -------------------------------------------hero--------------------------------- */
 .hero {
   background-color: var(--hero-bgc);
 }
 .title-hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
   color: var(--bgc-text-hero);
+}
+/* ----------------------------------------button-- */
+.button {
+  color: var(--bgc-text-hero);
+  background-color: var(--accent-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.button:hover {
+  color: #188ce8;
+}
+/* ----------------------------------------benefits */
+
+.title-benefits {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .benefits {
+  font-size: 14px;
+  line-height: 1.71;
   color: var(--benefits);
 }
+/* ------------------------------------comand-master--------------- */
 
-/* button */
-.button {
-  background-color: var(--accent-color);
-  color: var(--bgc-text-hero);
+.name-master {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.job-master {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
 }
