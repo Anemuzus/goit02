@@ -3,7 +3,7 @@
   --accent-color: #2196f3;
   --bgc-text-hero: #fff;
   --hero-bgc: #2f303a;
-  --benefits: #5f2020;
+  --benefits: #757575;
   --zaholovokh2: #212121;
 }
 
@@ -92,7 +92,7 @@ body {
   line-height: 1.36;
   color: var(--bgc-text-hero);
 }
-/* ----------------------------------------button-- */
+/* ----------------------------------------button--------------------------- */
 .button {
   color: var(--bgc-text-hero);
   background-color: var(--accent-color);
@@ -106,7 +106,7 @@ body {
   letter-spacing: 0.06em;
 }
 .button:hover {
-  color: #188ce8;
+  background-color: #188ce8;
 }
 /* ----------------------------------------benefits */
 
@@ -134,6 +134,7 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
+  color: var(--benefits);
 }
 /* ----------------------------foter-------------- */
 
@@ -157,4 +158,39 @@ body {
 }
 .transparent {
   color: rgba(255, 255, 255, 0.6);
+}
+.transparent:hover {
+  color: var(--bgc-text-hero);
+}
+/* /------------------------------------PORTFOLIO-------------------------- */
+.active-button-portfolio {
+  background-color: var(--accent-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--bgc-text-hero);
+}
+.button-portfolio {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--primary-text-color);
+}
+.button-portfolio:hover {
+  background-color: var(--accent-color);
+  color: var(--bgc-text-hero);
+}
+.name-card {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--zaholovokh2);
+}
+.content-card {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--benefits);
 }
