@@ -30,6 +30,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
+  text-decoration: none;
 }
 .active-studio {
   color: var(--accent-color);
@@ -49,6 +50,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav .link {
@@ -65,9 +67,11 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .mailtel .mt {
   color: var(--benefits);
+  text-decoration: none;
 }
 .mailtel .mt:hover {
   color: var(--accent-color);
@@ -94,6 +98,7 @@ body {
 }
 /* ----------------------------------------button--------------------------- */
 .button {
+  cursor: pointer;
   color: var(--bgc-text-hero);
   background-color: var(--accent-color);
   font-weight: bold;
@@ -155,15 +160,18 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .transparent {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .transparent:hover {
   color: var(--bgc-text-hero);
 }
 /* /------------------------------------PORTFOLIO-------------------------- */
 .active-button-portfolio {
+  cursor: pointer;
   background-color: var(--accent-color);
   font-style: normal;
   font-weight: 500;
@@ -172,6 +180,7 @@ body {
   color: var(--bgc-text-hero);
 }
 .button-portfolio {
+  cursor: pointer;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
