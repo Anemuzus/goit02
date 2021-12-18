@@ -3,7 +3,7 @@
   --accent-color: #2196f3;
   --bgc-text-hero: #fff;
   --hero-bgc: #2f303a;
-  --benefits: #757575;
+  --benefits: #5f2020;
   --zaholovokh2: #212121;
 }
 
@@ -11,6 +11,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--bgc-text-hero);
   color: var(--primary-text-color);
+  list-style: none;
 }
 
 .zaholovok {
@@ -25,6 +26,15 @@ body {
 }
 .labe {
   font-family: 'Raleway';
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+.active-studio {
+  color: var(--accent-color);
+}
+.active-portfolio {
   color: var(--accent-color);
 }
 .active {
@@ -32,6 +42,13 @@ body {
 }
 .studio {
   color: #000000;
+}
+.serif {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link {
@@ -117,4 +134,27 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
+}
+/* ----------------------------foter-------------- */
+
+.footer-list {
+  list-style: none;
+}
+.foter {
+  background-color: var(--hero-bgc);
+}
+.studio-footer {
+  color: var(--bgc-text-hero);
+}
+.footer-href {
+  color: var(--bgc-text-hero);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.transparent {
+  color: rgba(255, 255, 255, 0.6);
 }
